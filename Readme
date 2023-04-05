@@ -7,3 +7,7 @@ generate
 
 
 ./generate-groups.sh all /Users/radharamadoss/go/operators/kclusteroperator/pkg/client /Users/radharamadoss/go/operators/kclusteroperator/pkg/apis radha:v1 --go-header-file ./hack/boilerplate.go.txt
+
+controller-gen CLI - is used to generate crds
+It creates manifests folder
+control-gen paths=github.com/KR411-prog/kluster/pkg/apis/radha/v1 crd:trivialVersions=true crd:crdVersions=v1 output:crd:artifacts:config=manifests
